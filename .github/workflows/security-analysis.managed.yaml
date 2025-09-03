@@ -36,11 +36,11 @@ jobs:
       wiz_scan_deps_path: "."
       wiz_scan_deps_policy: "Pleo-Default-vulnerabilities-policy"
       # Container Scanning Inputs
-      wiz_scan_container: false
+      wiz_scan_container: true
       wiz_scan_container_policy: "Pleo-Default-container-policy"
       wiz_scan_container_dockerfile_path: "."
       jdk_version: "17"
-      node_version: 20
+      node_version: 22
       # IaC Scanning Inputs
       wiz_scan_iac: false
       wiz_scan_iac_path: "."
@@ -53,5 +53,5 @@ jobs:
       codeQlConfigFile: ""
       codeQlRunOnDefaultBranch: true
       jdkVersion: "17"
-      nodeVersion: 20
+      nodeVersion: 22
     secrets: inherit
