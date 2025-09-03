@@ -1,5 +1,6 @@
-version: v41.0.3
+version: v44.1.21
 files:
+  - .github/workflows/security-container-scanning.yaml
   - .github/workflows/security-analysis.yaml
   - .github/workflows/renovate_dependency_management.yaml
 values:
